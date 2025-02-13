@@ -1,8 +1,8 @@
-
+@charset "UTF-8";
 
 * {
-  margin: 0;
-  padding: 0;
+  padding: 0px;
+  margin: 0px;
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
@@ -43,7 +43,8 @@ a {
 
 .container {
   max-width: 1330px;
-  margin: 0 auto;
+  padding: 0px;
+  margin: 0px auto;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,8 +67,8 @@ a {
   background-size: cover;
     width: 200px;
     height: 200px;
-    left: 0%;
-    top: 75%;
+    left: -4%;
+    top: 55%;
     position: relative;
     z-index: 100;
 }
@@ -267,7 +268,7 @@ button:hover {
 /* mobile-menu */
 
 .mobile-menu {
-  width: 95%;
+  width: 96%;
   height: auto;
   position: absolute;
   top: 5px;
@@ -623,8 +624,10 @@ footer .container p {
 
 @media screen and (max-width: 648px) {
   .logo {
-    width: 200px;
-    top: 60px;
+    height: 170px;
+    width: 170px;
+    top: 34px;
+    left: -18px;
   }
 
   #about .right {
@@ -661,73 +664,4 @@ footer .container p {
   #service .box p {
     font-size: 14px;
   }
-}
-
-.section-5 {
-  padding: 0 10rem 0 10rem;
-}
-
-.section-5 h1 {
-  align-items: center;
-  text-align: center;
-  color: hsl(316, 31%, 81%);
-  font-size: 5rem;
-  margin-bottom: 5rem;
-}
-
-.container-form {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-form {
-  background-color: #4a3e0dd6;
-  padding: 2rem;
-  width: 50rem;
-  height: auto;
-}
-
-form h3 {
-  text-align: center;
-  color: #fff;
-  font-size: 2rem;
-}
-
-.section-5 .container-form .map {
-  width: 100%;
-  flex: 1.45rem;
-  object-fit: cover;
-}
-
-.inputform {
-  display: flex;
-  align-items: center;
-  padding: 0 0 0 1rem;
-  margin-top: 1rem;
-  background: black;
-}
-
-.inputform input {
-  width: 100%;
-  padding: 1.5rem;
-  background: #fff;
-}
-
-.inputform span {
-  font-size: 1.5rem;
-  color: #fff;
-  margin-right: 5%;
-}
-form button {
-  margin-top: 2rem;
-  margin-left: 45%;
-  background-color: palevioletred;
-  font-size: 1.2rem;
-  cursor: pointer;
-  text-align: center;
-  align-items: center;
-  color: #fff;
 }
