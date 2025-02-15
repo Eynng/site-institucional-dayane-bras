@@ -379,17 +379,15 @@ body::-webkit-scrollbar-thumb {
 
 /* mentorias*/
 
-#menu .box {
-  background: max-widt;
-  border-radius: 20px;
-  border: 2px solid #464545;
-  margin: 15px;
-}
 
 #menu .box {
   width: 80%;
   height: auto;
+  background: max-widt;
+  border-radius: 0px;
+  border: 5px solid rgb(102, 102, 102);
   margin-top: 5px;
+  margin: 15px;
 }
 
 #menu .box h2 {
